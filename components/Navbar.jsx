@@ -58,7 +58,7 @@ function Navbar() {
 							className="w-9 h-9 object-contain
                         rounded-full relative cursor-pointer"
 						>
-							<Image
+							{/* <Image
 								src="/assets/avatar.png"
 								alt="avatar"
 								fill={true}
@@ -66,14 +66,14 @@ function Navbar() {
 								className="w-9 h-9 object-cover
                         rounded-full"
 								onClick={() => setAvatarToggle(!avatarToggle)}
-							/>
+							/> */}
 						</div>
 						<Link href="/">
 							<p className="dark:text-ctnPrimaryDark text-ctnPrimaryLight text-[18px] font-bold cursor-pointer flex ">
-								Shivam Sharma &nbsp;
+								Ishika Savita &nbsp;
 								<span className="lg:block hidden">
 									{" "}
-									| Frontend Developer
+									| Full Stack Developer
 								</span>
 							</p>
 						</Link>

@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Shivam Sharma",
-    "email": "shivamsharma77607@gmail.com",
-    "github": "@Shivam-Sharma-1",
-    "linkedin": "https://www.linkedin.com/in/shivamsharma77607"
+    "name": "Ishika Savita",
+    "email": "ishikasavita946@gmail.com",
+    "github": "https://github.com/ishika61",
+    "linkedin": "https://www.linkedin.com/in/ishika-savita-603293293/"
   },
   "scripts": {
     "dev": "next dev",
@@ -21,9 +21,7 @@
     "@svgr/webpack": "^8.1.0",
     "@vercel/analytics": "^1.0.2",
     "dompurify": "^3.1.6",
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19",
-    "framer-motion": "^10.15.0",
+    "framer-motion": "^10.16.4",
     "gltfjsx": "^6.2.13",
     "maath": "^0.7.0",
     "next": "13.4.19",
@@ -37,6 +35,8 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3"
   }

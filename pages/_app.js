@@ -23,9 +23,9 @@ export default function App({ Component, pageProps }) {
 		}
 	}, [loading]);
 
-	const title = "Portfolio | Shivam Sharma";
+	const title = "Portfolio | Ishika Savita";
 	const description =
-		"Hello! I'm Shivam Sharma, a passionate web developer and problem solver. Welcome to my portfolio";
+		"Hello! I'm Ishika Savita, a passionate web developer and problem solver. Welcome to my portfolio";
 	const avatar =
 		"https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
 	const url = "https://shivam-sharma-myportfolio.vercel.app/";
@@ -80,7 +80,7 @@ export default function App({ Component, pageProps }) {
 
 			<ThemeProvider attribute="class" defaultTheme="dark">
 				<Component {...pageProps} loading={loading} />
-                <Analytics />
+				<Analytics />
 				{loading && <PreLoader />}
 			</ThemeProvider>
 		</>
