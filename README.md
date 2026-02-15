@@ -1,6 +1,6 @@
 # 3D Portfolio
 
-![Portfolio Screenshot](/public/assets/readme_assets/screenshot.png)
+![Portfolio Screenshot]()
 
 3D Portfolio is my personal portfolio website created using Next.js, Tailwind CSS, Three.js, React Three Fiber, and a collection of other technologies. This website showcases my skills, experiences, projects, and allows users to contact me. It also offers a dark and light theme to enhance the user experience.
 
@@ -16,7 +16,7 @@
 
 ## Demo
 
-You can see a live demo of the portfolio website at [https://shivam-sharma-myportfolio.vercel.app/](https://shivam-sharma-myportfolio.vercel.app/).
+You can see a live demo of the portfolio website at https://threed-portfolio-ishika.onrender.com/
 
 ## Features
 
@@ -47,7 +47,7 @@ You can see a live demo of the portfolio website at [https://shivam-sharma-mypor
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/Shivam-Sharma-1/3D-Portfolio
+git clone https://github.com/ishika61/3D-Portfolio
 ```
 
 2. Change to the project directory:
@@ -82,4 +82,4 @@ The project structure is organized as follows:
 
 ## Author
 
--   [@Shivam-Sharma-1](https://github.com/Shivam-Sharma-1)
+-   [@Ishika Savita-1](https://github.com/ishika61)
