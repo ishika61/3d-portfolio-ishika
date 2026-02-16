@@ -27,8 +27,10 @@ export default function App({ Component, pageProps }) {
 	const description =
 		"Hello! I'm Ishika Savita, a passionate web developer and problem solver. Welcome to my portfolio";
 	const avatar =
-		"https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
-	const url = "https://shivam-sharma-myportfolio.vercel.app/";
+		// "https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
+		"https://drive.google.com/file/d/1X7XmR1lXTnZE5MElmcWENQCCN0EbEPjs/view?usp=sharing/ ";
+	// const url = "https://shivam-sharma-myportfolio.vercel.app/";
+	const url = "https://threed-portfolio-ishika.onrender.com/";
 
 	return (
 		<>

@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -28,19 +29,16 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-     Hello! I’m Ishika Savita, a passionate Full Stack Developer with hands-on experience in building scalable and responsive web applications. 
-     I’m currently pursuing a B.Tech in Electrical Engineering from Madhav Institute of Technology & Science, Gwalior (2022–Present).
-I have practical experience as a Full Stack Developer Intern at iNeuron Intelligence Pvt. Ltd., where I worked on developing end-to-end web applications using React.js, Node.js, Express.js, MongoDB, and RESTful APIs. I’ve also completed professional training in Full Stack Development at PS Softech Pvt. Ltd., gaining strong exposure to React.js, Next.js, backend integration, and database-driven applications.
-My technical expertise includes Java, Python, JavaScript, modern 
-frontend frameworks like React and Next.js, and backend technologies such as
- Node.js, Express.js, MySQL, and MongoDB. I’ve built impactful projects like a JWT-secured 
- Mini Loan Management System and an AI-powered Code Review platform, showcasing my ability to
-  design secure, efficient, and user-centric applications.
+          Hello! I’m Ishika Savita, a passionate full-stack developer and technology enthusiast. Currently, I’m pursuing a B.Tech in Electrical Engineering
+           from Madhav Institute of Technology & Science, Gwalior, with a strong interest in software development and modern web technologies.
 
-With a solid foundation in Data Structures & Algorithms, OOPS, DBMS, and REST 
-architecture, I enjoy solving real-world problems through clean code and scalable system design.
- I’m always eager to learn, collaborate, and grow as a software developer in challenging 
- environments.
+I have hands-on experience as a Full Stack Developer Intern at iNeuron Intelligence Pvt. Ltd., 
+where I worked on building scalable web applications using React.js, Node.js, Express.js, and MongoDB.
+ I’ve also completed professional training in Full Stack Development at PS Softech Pvt. Ltd., strengthening my understanding of frontend and backend integration.
+
+I’m skilled in JavaScript, React.js, Next.js, Node.js, and MySQL, and I enjoy creating
+ responsive, user-friendly web applications. Along with development, I have a solid foundation in problem-solving and core programming concepts,
+ which helps me build efficient and maintainable solutions.
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>
@@ -68,8 +66,7 @@ architecture, I enjoy solving real-world problems through clean code and scalabl
           ))}
         </div>
         <Link
-          // href="Ishika_Savita_Resume.pdf"
-          href="/document/Ishika_Savita_Resume.pdf"
+          href="document/Ishika_Savita_Resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

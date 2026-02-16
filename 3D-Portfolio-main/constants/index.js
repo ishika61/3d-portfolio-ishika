@@ -33,26 +33,26 @@ const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Software Developer",
-    icon: <FullStackIcon />,
-  },
+  // {
+  //   title: "Software Developer",
+  //   icon: <FullStackIcon />,
+  // },
   {
     title: "Frontend Developer",
     icon: <FrontendIcon />,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: <BackendIcon />,
-  // },
+  {
+    title: "Backend Developer",
+    icon: <BackendIcon />,
+  },
   {
     title: "Problem Solving",
     icon: <ProblemSolvingIcon />,
   },
-  {
-    title: "Freelancer",
-    icon: <FreelancerIcon />,
-  },
+  // {
+  //   title: "Freelancer",
+  //   icon: <FreelancerIcon />,
+  // },
   // {
   //   title: "Leadership",
   //   icon: <LeaderShipIcon />,
@@ -91,11 +91,11 @@ const technologies = {
       icon: "/assets/tech/java.svg",
       link: "https://www.java.com/en/",
     },
-    {
-      name: "Python",
-      icon: "/assets/tech/python.svg",
-      link: "https://www.python.org/",
-    },
+    // {
+    //   name: "Python",
+    //   icon: "/assets/tech/python.svg",
+    //   link: "https://www.python.org/",
+    // },
   ],
   frameworks: [
     {
@@ -113,11 +113,11 @@ const technologies = {
       icon: "/assets/tech/expressjs.png",
       link: "https://expressjs.com/",
     },
-    {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
-    },
+    // {
+    //   name: "Flutter",
+    //   icon: "/assets/tech/flutter.svg",
+    //   link: "https://flutter.dev/",
+    // },
   ],
   libraries: [
     {
@@ -125,28 +125,34 @@ const technologies = {
       icon: "/assets/tech/react.svg",
       link: "https://react.dev/",
     },
+    // {
+    //   name: "Three.js",
+    //   icon: "/assets/tech/threejs.svg",
+    //   link: "https://threejs.org/",
+    // },
+
     {
-      name: "Three.js",
-      icon: "/assets/tech/threejs.svg",
-      link: "https://threejs.org/",
-    },
+  name: "REST APIs",
+  icon: "/assets/tech/postman.svg",
+  link: "https://restfulapi.net/",
+},
+{
+  name: "JWT",
+  icon: "/assets/tech/jwt.png",
+  link: "https://jwt.io/",
+},
+
+// {      name: "Framer-motion",
+//       icon: "/assets/tech/framer.svg",
+//       link: "https://www.framer.com/motion/",
+//     },
+    // {
+    //   name: "Zustand",
+    //   icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
+    //   link: "https://zustand-demo.pmnd.rs",
+    // },
     {
-      name: "Styled-Components",
-      icon: "/assets/tech/styled-components.png",
-      link: "https://styled-components.com/",
-    },
-    {
-      name: "Framer-motion",
-      icon: "/assets/tech/framer.svg",
-      link: "https://www.framer.com/motion/",
-    },
-    {
-      name: "Zustand",
-      icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
-      link: "https://zustand-demo.pmnd.rs",
-    },
-    {
-      name: "Redux/Redux-toolkit",
+      name: "Redux",
       icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
       link: "https://redux.js.org",
     },

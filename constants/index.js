@@ -7,6 +7,7 @@ import LeaderShipIcon from "./../public/assets/icons/leadership.svg";
 import ProblemSolvingIcon from "./../public/assets/icons/problem-solving.svg";
 import FreelancerIcon from "./../public/assets/icons/freelance.svg";
 import BackendIcon from "./../public/assets/icons/backend.svg";
+
 import FullStackIcon from "./../public/assets/icons/full-stack.svg";
 
 const navLinks = [
@@ -150,15 +151,21 @@ const technologies = {
   link: "https://react.dev/",
 },
 {
-  name: "Redux Toolkit",
+  name: "Redux",
   icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
-  link: "https://redux-toolkit.js.org/",
+  link: "https://redux.js.org/",
 },
 {
-  name: "Framer Motion",
-  icon: "/assets/tech/framer.svg",
-  link: "https://www.framer.com/motion/",
-},
+  name: "JWT",
+  icon: "/assets/tech/jwt.png",
+  link: "https://jwt.io/"
+}
+
+// {
+//   name: "Framer Motion",
+//   icon: "/assets/tech/framer.svg",
+//   link: "https://www.framer.com/motion/",
+// },
 
   ],
   tools: [
@@ -280,9 +287,9 @@ const projects = [
       color: "white-text-gradient",
     },
   ],
-  // image: "",
+   image: "/assets/projects/miniloan.png",
   source_code_link: "https://github.com/ishika61/Mini-Loan-App.git",
-  deployed_link: " https://mini-loan-webapp.vercel.app",
+  deployed_link: " https://threed-portfolio-ishika.onrender.com/",
 },
 
 {
@@ -307,7 +314,7 @@ const projects = [
       color: "orange-text-gradient",
     },
   ],
-  // image: "/assets/projects/code-reviewer.png",
+  image: "/assets/projects/code-reviewer.png",
   source_code_link: "https://github.com/ishika61/code_review",
 },
 
@@ -328,13 +335,13 @@ const socials = [
   {
     id: "x",
     icon: <XIcon />,
-    link: "",
+    link: "https://x.com/Ishika1035",
   },
-  {
-    id: "instagram",
-    icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_ishikaaa__10/",
-  },
+  // {
+  //   id: "instagram",
+  //   icon: <InstagramIcon />,
+  //   link: "https://www.instagram.com/_ishikaaa__10/",
+  // },
 ];
 
 const heroTexts = [
