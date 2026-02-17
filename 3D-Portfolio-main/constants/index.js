@@ -76,11 +76,11 @@ const technologies = {
       icon: "/assets/tech/javascript.svg",
       link: "https://262.ecma-international.org/",
     },
-    {
-      name: "TypeScript",
-      icon: "/assets/tech/typescript.svg",
-      link: "https://www.typescriptlang.org/",
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: "/assets/tech/typescript.svg",
+    //   link: "https://www.typescriptlang.org/",
+    // },
     {
       name: "C",
       icon: "/assets/tech/c.svg",
@@ -161,11 +161,11 @@ const technologies = {
       icon: "/assets/tech/nextauthjs.png",
       link: "https://next-auth.js.org/",
     },
-    {
-      name: "Prisma",
-      icon: "/assets/tech/prisma.svg",
-      link: "https://www.prisma.io/",
-    },
+    // {
+    //   name: "Prisma",
+    //   icon: "/assets/tech/prisma.svg",
+    //   link: "https://www.prisma.io/",
+    // },
   ],
   tools: [
     {
@@ -183,16 +183,16 @@ const technologies = {
       icon: "/assets/tech/postman.svg",
       link: "https://www.postman.com/",
     },
-    {
-      name: "Figma",
-      icon: "/assets/tech/figma.svg",
-      link: "https://www.figma.com/",
-    },
-    {
-      name: "Docker",
-      icon: "/assets/tech/docker.svg",
-      link: "https://www.docker.com/",
-    },
+    // {
+    //   name: "Figma",
+    //   icon: "/assets/tech/figma.svg",
+    //   link: "https://www.figma.com/",
+    // },
+    // {
+    //   name: "Docker",
+    //   icon: "/assets/tech/docker.svg",
+    //   link: "https://www.docker.com/",
+    // },
   ],
   environments: [
     {

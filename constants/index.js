@@ -132,11 +132,11 @@ const technologies = {
     //   icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
     //   link: "https://redux.js.org",
     // },
-    // {
-    //   name: "NextAuth.js",
-    //   icon: "/assets/tech/nextauthjs.png",
-    //   link: "https://next-auth.js.org/",
-    // },
+    {
+      name: "NextAuth.js",
+      icon: "/assets/tech/nextauthjs.png",
+      link: "https://next-auth.js.org/",
+    },
     // {
     //   name: "Prisma",
     //   icon: "/assets/tech/prisma.svg",
@@ -158,14 +158,20 @@ const technologies = {
 {
   name: "JWT",
   icon: "/assets/tech/jwt.png",
-  link: "https://jwt.io/"
-}
+  link: "https://jwt.io/",
+},
 
 // {
 //   name: "Framer Motion",
 //   icon: "/assets/tech/framer.svg",
 //   link: "https://www.framer.com/motion/",
 // },
+{
+  name: "Material UI",
+  icon: "/assets/tech/materialui.png",
+  link: "https://mui.com/",
+},
+
 
   ],
   tools: [
@@ -289,8 +295,46 @@ const projects = [
   ],
    image: "/assets/projects/miniloan.png",
   source_code_link: "https://github.com/ishika61/Mini-Loan-App.git",
-  deployed_link: " https://threed-portfolio-ishika.onrender.com/",
+  deployed_link: " https://mini-loan-webapp.vercel.app/ ",
 },
+
+
+{
+  name: "RestroBuddy – Restaurant Management & Food Ordering System",
+  description:
+    "RestroBuddy is a full-stack restaurant management and food ordering web application designed to streamline restaurant operations and enhance customer experience. It allows users to browse menus, place orders, and manage their profiles, while admins can manage food items, categories, and orders. The system ensures secure authentication, smooth UI experience, and efficient database management.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "node.js",
+      color: "green-text-gradient",
+    },
+    {
+      name: "express.js",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "mysql",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "jwt",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "MaterialUI, CSS",
+      color: "white-text-gradient",
+    },
+  ],
+  image: "/assets/projects/restrobuddy.png",
+  source_code_link: "https://github.com/ishika61/restrobuddy.git",
+  deployed_link: "https://restrobuddy.vercel.app/",
+},
+
+
 
 {
   name: "AI Code Reviewer",
